@@ -1,0 +1,24 @@
+{
+  "name": "odianosen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ignore server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ookojie/Sleep-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ookojie/Sleep-App/issues"
+  },
+  "homepage": "https://github.com/ookojie/Sleep-App#readme"
+}

@@ -1,0 +1,38 @@
+  .body{
+      font-family: 'Karla', sans-serif;
+      overflow-y: fixed;
+      width: 100%;
+      top: -20px;
+      right: -40px;
+      bottom: -40px;
+      width: auto;
+      height: auto;
+      background-image: url (https://cdn.pixabay.com/photo/2016/11/23/01/27/night-1851685_1280.png);
+      background-size: cover;
+      -webkit-filter: blur(0px);
+  }
+
+  .head{
+
+    position: absolute;
+    top: calc(50% -35px);
+    left: calc(50% -25px);
+  }
+
+  .header div{
+
+    float: left;
+    color: #8F2991;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+  }
+
+  .header div span{
+      color: #ffffff :important;
+
+  }
+
+  .login{
+font-family: cursive;
+  }
