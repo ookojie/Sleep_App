@@ -3,21 +3,46 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html class="no-js"></html>
   <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Sign-in form</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-  
+  <script src = "/loginServices.js" defer></script>
   </head>
 
   <body>
-    <script src="" async defer></script>
+    <!--<script src="" async defer></script> -->
+
+
+    <h1>
+      Hello
+    </h1>
+
+    <form>
+<section>
+  <label for = "email"> Email </label>
+  <input id ="email" name="email" autocomplete= "email" required>
+</section>
+
+<section>
+  <label for ="password"> Password </label>
+<button id= "toggle-password" type = "button" aria-label="Show password as plain text. Warning: this will display your password on the screen.">Show password</button>
+  <input id ="password" type ="password" required aria-describedby="password-constraints">
+
+  <!-- Make sure to syle password constraints to be small and red-->
+  <div id = "password-constraints">8+ characters with a mix of letters, numbers and symbols.</div>
+</section>
+
+
+<button>Sign In</button>
+    </form>
+
   </body>
 </html>
